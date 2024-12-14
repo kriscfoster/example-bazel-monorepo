@@ -1,0 +1,4 @@
+load("@gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix github.com/kriscfoster/example-bazel-monorepo
+gazelle(name = "gazelle")
